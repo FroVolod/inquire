@@ -1,6 +1,6 @@
 [package]
 name = "inquire-clack"
-version = "0.0.1"
+version = "0.1.0"
 description = "inquire-clack is the `inquire` crate with an additional interface"
 repository = "https://github.com/FroVolod/inquire/tree/main-clack"
 license = "MIT"
