@@ -1,18 +1,18 @@
 [package]
-name = "inquire"
-version = "0.9.1"
-description = "inquire is a library for building interactive prompts on terminals"
-repository = "https://github.com/mikaelmello/inquire"
+name = "inquire-clack"
+version = "0.1.0"
+description = "inquire-clack is the `inquire` crate with an additional interface"
+repository = "https://github.com/FroVolod/inquire/tree/main-clack"
 license = "MIT"
-edition = "2018"
+edition = "2021"
 readme = "./CRATE_README.md"
-documentation = "https://docs.rs/inquire"
-homepage = "https://github.com/mikaelmello/inquire"
-authors = ["Mikael Mello <git@mikaelmello.com>"]
+documentation = "https://docs.rs/inquire-clack"
+homepage = "https://github.com/FroVolod/inquire/tree/main-clack"
+authors = ["Mikael Mello <git@mikaelmello.com>", "FroVolod <frol_off@meta.ua>"]
 keywords = ["cli", "ask", "prompt", "question", "interactive"]
 categories = ["command-line-interface", "value-formatting"]
 include = ["/src", "/../LICENSE"]
-rust-version = "1.80.0"
+rust-version = "1.82.0"
 
 [lib]
 name = "inquire"
