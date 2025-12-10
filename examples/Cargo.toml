@@ -8,7 +8,7 @@ publish = false
 path = "lib.rs"
 
 [dependencies]
-inquire = { path = "../inquire", features = ["date", "editor", "macros"] }
+inquire-clack = { path = "../inquire", features = ["date", "editor", "macros"] }
 inquire-derive = { path = "../inquire-derive" }
 chrono = "0.4"
 fuzzy-matcher = "0.3.7"
